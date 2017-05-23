@@ -1,0 +1,19 @@
+{
+  "name": "npm-jest",
+  "version": "1.0.0",
+  "description": "jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imransyd/npm-jest.git"
+  },
+  "author": "Imran Syed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imransyd/npm-jest/issues"
+  },
+  "homepage": "https://github.com/imransyd/npm-jest#readme"
+}
