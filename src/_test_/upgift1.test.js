@@ -1,4 +1,4 @@
-const makeHTML = require('../uppgift-1.js');
+const makeHTML = require('../upgift1.js');
 
 // här kommer testen
 
@@ -12,4 +12,5 @@ describe('makeHTML test suite', () => {
 	test('makeHTML normal string', () => {
 		expect(makeHTML('yellow')).toBe('<p>yellow</p>');
 	})
-});
+
+})
