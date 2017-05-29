@@ -40,11 +40,12 @@ describe('sellProduct', () => {
     
      test('not a valid valid object', () => {
 		let obj2 = true;
-		};
+		
           
 		let func =()=>{sellProduct(obj2)};
 		expect(func).toThrow(Error);
-	});
+         });
+	
 /*
     test('valid object', () => {
 		let obj3 = {
@@ -54,6 +55,7 @@ describe('sellProduct', () => {
 		};
 		sellProduct(obj3);
 		expect(obj3.count).toBe(Error);
-	});*/
+	});
+    */
     
 });
